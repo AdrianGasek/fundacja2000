@@ -1,8 +1,15 @@
+'use client'
 import React from 'react'
+import { NavigationContainer } from './styles'
+
 
 const Navigation = () => {
   return (
-    <div>Navigation</div>
+    <>
+      <NavigationContainer>
+        Nav
+      </NavigationContainer>
+    </>
   )
 }
 
